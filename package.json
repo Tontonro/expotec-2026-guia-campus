@@ -1,0 +1,13 @@
+{
+  "name": "expotec-2026-guia-localizacao",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Guia interativo de localiza??o da EXPOTEC 2026.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
