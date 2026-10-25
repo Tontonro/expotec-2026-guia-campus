@@ -187,6 +187,7 @@ a{color:var(--official-purple-800)}
 .block-search{display:block;width:100%;margin:0 0 9px;padding:9px 11px;border:1px solid var(--official-line);border-radius:9px;background:#fff;color:var(--official-text);font-size:11px;outline:0}
 .block-search:focus{border-color:var(--official-magenta);box-shadow:0 0 0 3px #9a0a7830}
 .map-picture{display:block;width:100%;height:100%}
+.map-column{order:-1}
 .info-section{max-width:1450px;margin:0 auto;padding:74px clamp(20px,5vw,72px);background:var(--official-soft)}
 .about-section{position:relative;isolation:isolate;display:grid;grid-template-columns:110px minmax(0,1fr) minmax(220px,300px);align-items:center;gap:clamp(25px,5vw,70px);max-width:1450px;margin:0 auto;padding:92px clamp(20px,7vw,100px);overflow:hidden;background:#fff}
 .about-section:before{content:"";position:absolute;z-index:-1;left:-100px;bottom:-180px;width:360px;height:360px;border:1px solid #f4386430;border-radius:50%}
@@ -226,6 +227,8 @@ a{color:var(--official-purple-800)}
 .location-pin{position:absolute;left:50%;top:50%;display:flex;gap:6px;align-items:center;padding:8px 12px;border:2px solid var(--official-pink);border-radius:999px;background:#fff;color:var(--official-purple-900);font-size:12px;font-weight:850;transform:translate(-50%,-50%);box-shadow:0 5px 18px #24163a25}
 .location-map-legend{position:absolute;left:16px;bottom:16px;display:grid;gap:1px;padding:9px 12px;border-radius:10px;background:#fff;color:var(--official-purple-900);box-shadow:0 4px 14px #24163a20}.location-map-legend b{font-size:12px}.location-map-legend span{color:var(--official-text-muted);font-size:10px}
 @media(max-width:760px){.info-section{padding:52px 18px}.about-section{grid-template-columns:1fr;padding:58px 20px}.about-emblem{width:70px;height:70px;font-size:30px}.about-facts{grid-template-columns:repeat(3,1fr);gap:10px}.about-facts div{display:grid;gap:5px;padding:10px 0}.about-facts b{min-width:0;font-size:31px}.about-facts span{font-size:10px}.schedule-grid,.location-section{grid-template-columns:1fr}.schedule-card p{min-height:0}.location-preview{order:-1}.schedule-source{justify-content:flex-start;gap:10px;flex-direction:column}}
+.map-column{order:1}
+.directory{order:2}
 /* Zoom changes layout dimensions; labels and vector strokes keep their screen size. */
 .area{stroke-width:2.8px}
 .area:hover,.area:focus-visible{stroke-width:4.2px}
